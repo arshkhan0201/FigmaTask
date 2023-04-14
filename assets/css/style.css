@@ -1,0 +1,121 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter.ttf);
+}
+img 
+{
+    width: 100%;
+}
+.text-h2
+{
+    margin-left: 5px;
+    color: rgba(142, 164, 188, 1);
+}
+.text-h4
+{
+    margin-top: 20px;
+}
+.text-p
+{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 24p;
+    color: rgba(134, 134, 134, 1);
+}
+.text-p1
+{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24p;
+    text-align: left;
+    color: rgba(134, 134, 134, 1);
+}
+header
+{
+    background-color: rgba(235, 229, 217, 1);
+}
+.navbar-brand
+{
+    margin-left: 30px;
+}
+.navbar-nav
+{
+    margin-left: 20px;
+}
+.nav-link
+{
+    padding:10px 15px !important;
+    color: rgba(192, 157, 110, 1) !important;
+    border-right: 2px solid #fff !important;
+}
+.banner-content
+{
+    width:100%;
+    padding: 50px;
+}
+.cards
+{
+    background-color: rgba(237, 246, 250, 1);
+    padding: 50px 25px;
+}
+.inner-card1
+{
+    background-color: #fff;
+    padding: 5px;
+}
+.box
+{
+    margin: 10px;
+    padding: 20px;
+    border:  1px dashed #80ABBE;
+    background-color: #fff;
+    text-align: center;
+}
+.box img 
+{
+    width: 50px;
+    height: 50px;
+}
+.signup
+{
+    margin: 50px;
+    padding: 10px;
+}
+button
+{
+    background-color: rgba(241, 136, 137, 1);
+    border: 1px dashed #fff;
+    border-radius: 50px;
+    outline: 3px solid rgba(241, 136, 137, 1);
+    padding: 5px 15px;
+}
+span
+{
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+.shipping
+{
+    padding: 10px 50px;
+}
+.shipping-content
+{
+    margin: 40px;
+    padding: 10px;
+}
+.do-you 
+{
+    padding: 50px;
+}
+.do-you h2 
+{
+    color: rgba(237, 170, 205, 1);
+}
