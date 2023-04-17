@@ -9,6 +9,10 @@
     font-family: Inter;
     src: url(../fonts/Inter.ttf);
 }
+body 
+{
+    background-image: url(../images/background.png);
+}
 img 
 {
     width: 100%;
@@ -17,6 +21,7 @@ img
 {
     margin-left: 5px;
     color: rgba(142, 164, 188, 1);
+    text-align: left;
 }
 .text-h4
 {
@@ -28,6 +33,7 @@ img
     font-size: 24px;
     line-height: 24p;
     color: rgba(134, 134, 134, 1);
+    text-align: left;
 }
 .text-p1
 {
@@ -37,13 +43,25 @@ img
     text-align: left;
     color: rgba(134, 134, 134, 1);
 }
+.btn1
+{
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(241, 136, 137, 1);
+    border: 2px dashed #fff;    
+    border-radius: 50px;
+    outline: 3px solid rgba(241, 136, 137, 1);
+    padding: 7px 20px;
+}
+/* NAVIGATION STARTS HERE */
+
 header
 {
     background-color: rgba(235, 229, 217, 1);
 }
-.navbar-brand
+.navbar
 {
-    margin-left: 30px;
+    padding: 10px 30px !important;
 }
 .navbar-nav
 {
@@ -55,13 +73,28 @@ header
     color: rgba(192, 157, 110, 1) !important;
     border-right: 2px solid #fff !important;
 }
+.nav-item img 
+{
+    width: 25px;
+    height: 25px;
+}
+/* NAVIGATION CSS END HERE */
+
+.banner
+{
+    background-image: none;
+}
 .banner-content
 {
+    background-color: #fff;
     width:100%;
-    padding: 50px;
+    padding: 70px;
 }
+/* BANNER CSS ENDS HERE */
+
 .cards
 {
+    width: 100%;
     background-color: rgba(237, 246, 250, 1);
     padding: 50px 25px;
 }
@@ -83,39 +116,165 @@ header
     width: 50px;
     height: 50px;
 }
+/* CARD ENDS HERE */
+
 .signup
 {
-    margin: 50px;
-    padding: 10px;
+    background-color: #fff;
+    padding: 70px;
+    text-align: center;
 }
-button
+.images 
 {
-    background-color: rgba(241, 136, 137, 1);
-    border: 1px dashed #fff;
-    border-radius: 50px;
-    outline: 3px solid rgba(241, 136, 137, 1);
-    padding: 5px 15px;
+    background-color: #fff;
 }
-span
+.images img 
 {
-   margin-top: 50px;
-   display: flex;
-   justify-content: center;
+   padding-top: 20px;
 }
+/* SIGNUP ENDS HERE */
+
 .shipping
 {
-    padding: 10px 50px;
+    width: 100%;
+    background-color: #fff;
+    padding:50px;
+    text-align: center;
+}
+.shipping-img 
+{
+    margin-top: 50px;
 }
 .shipping-content
 {
     margin: 40px;
     padding: 10px;
 }
+.shipping-content img 
+{
+    position: relative;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+}
+/* SHIPPING ENDS HERE */
+
 .do-you 
 {
-    padding: 50px;
+    padding: 70px;
+    background-color: rgba(255, 245, 245, 1);
 }
-.do-you h2 
+.do-you h1
 {
     color: rgba(237, 170, 205, 1);
+    font-size: 40px;
+    max-width: 626px;
+}
+.do-you p 
+{
+    color: rgba(109, 172, 234, 1);
+    font-size: 24px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.do-you a:link
+{
+    text-decoration: none;
+}
+.do-you img 
+{
+    margin-top: 40px;
+}
+/* DO-YOU ENDS HERE */
+
+.subscribe 
+{
+    background-color: #fff;
+    padding: 70px;
+}
+.subscribe input 
+{
+    margin:10px 20px;
+    border: 1px dashed rgba(183, 181, 181, 1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+.subscribe-checkbox #checkbox 
+{
+    width: 20px;
+    height: 20px;
+}
+/* SUBSCRIBE ENDS HERE */
+
+footer
+{
+    color: rgba(134, 134, 134, 1);
+    background-color: rgba(235, 229, 217, 1);
+    padding: 70px;
+}
+footer h4 
+{
+    margin:0px 0px 20px 20px;
+    text-align: center;
+}
+footer ul li 
+{
+    text-align: center;
+    list-style: none;
+}
+/* FOOTER ENDS HERE */
+
+@media only screen and (max-width:991px) {
+    .navbar-nav {
+        margin: 0px;
+    }
+    .subscribe-input{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }  
+}
+@media only screen and (max-width:767px) {
+    .banner-content p {
+        font-size: 20px;
+    }
+    .cards p {
+        font-size: 20px;
+    }
+    .signup p {
+        font-size: 20px;
+    }
+    .shipping-content h1 
+    {
+        font-size: 35px;
+    }
+    .shipping-content p {
+        font-size: 20px;
+    }
+    .subscribe p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:480px){
+    .banner-content p{
+        font-size: 16px;
+    }
+    .cards p{
+        font-size: 16px;
+    }
+    .signup p{
+        font-size: 16px;
+    }
+    .shipping-content h1 
+    {
+        font-size: 30px;
+    }
+    .shipping-content p{
+        font-size: 16px;
+    }
+    .subscribe p {
+        font-size: 16px;
+    }
 }
