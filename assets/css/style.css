@@ -9,10 +9,6 @@
     font-family: Inter;
     src: url(../fonts/Inter.ttf);
 }
-body 
-{
-    background-image: url(../images/background.png);
-}
 img 
 {
     width: 100%;
@@ -79,10 +75,9 @@ header
     height: 25px;
 }
 /* NAVIGATION CSS END HERE */
-
-.banner
+.body-section
 {
-    background-image: none;
+    background-image: url('../images/background.png');
 }
 .banner-content
 {
@@ -206,6 +201,16 @@ header
     width: 20px;
     height: 20px;
 }
+.subscribe-checkbox
+{
+    display: flex;
+    align-items: flex-start;
+}
+.subscribe-checkbox p
+{
+    display: flex;
+    margin-top: 20px;
+}
 /* SUBSCRIBE ENDS HERE */
 
 footer
@@ -236,45 +241,121 @@ footer ul li
         text-align: center;
     }  
 }
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .banner-content p {
         font-size: 20px;
+        text-align: justify;
     }
     .cards p {
         font-size: 20px;
+        text-align: justify;
     }
     .signup p {
         font-size: 20px;
+        text-align: justify;
     }
     .shipping-content h1 
     {
         font-size: 35px;
+        text-align: justify;
     }
     .shipping-content p {
         font-size: 20px;
+        text-align: justify;
     }
     .subscribe p {
         font-size: 20px;
+        text-align: justify;
     }
 }
 @media only screen and (max-width:480px){
+    .banner-content
+    {
+        padding: 30px;
+    }
     .banner-content p{
         font-size: 16px;
+        text-align: justify;
+    }
+    .cards{
+        padding: 30px;
     }
     .cards p{
         font-size: 16px;
+        text-align: justify;
+    }
+    .signup
+    {
+        padding: 30px;
     }
     .signup p{
         font-size: 16px;
+        text-align: justify;
+    }
+    .shipping
+    {
+        padding: 30px;
     }
     .shipping-content h1 
     {
-        font-size: 30px;
+        font-size: 20px;
     }
     .shipping-content p{
         font-size: 16px;
+        text-align: justify;
+    }
+    .subscribe
+    {
+        padding: 30px;
     }
     .subscribe p {
         font-size: 16px;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:320px){
+    .banner-content
+    {
+        padding: 10px;
+    }
+    .banner-content p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .cards
+    {
+        padding: 10px;
+    }
+    .cards p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .signup
+    {
+        padding: 10px;
+    }
+    .signup p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .shipping
+    {
+        padding: 10px;
+    }
+    .shipping-content h1
+    {
+        font-size: 25px;
+    }
+    .shipping-content p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .subscribe
+    {
+        padding: 10px;
+    }
+    .subscribe p{
+        font-size: 12px;
+        text-align: justify;
     }
 }

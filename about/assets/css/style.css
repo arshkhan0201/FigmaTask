@@ -1,0 +1,139 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter.ttf');
+}
+img 
+{
+    width: 100%;
+}
+.text-h2-center
+{
+    color: rgba(142, 164, 188, 1);
+    margin:20px 0px;
+    text-align: center;
+}
+.text-h2
+{
+    color: rgba(142, 164, 188, 1);
+    margin:20px 0px;
+}
+.text-p
+{
+    color: rgba(134, 134, 134, 1);
+    font-size: 20px;
+    text-align: justify;
+}
+.text-p-center
+{
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(134, 134, 134, 1);
+}
+.text-p-sm
+{
+    text-align: center;
+    color: rgba(134, 134, 134, 1);
+    font-size: 12px;
+    margin-top: -10px;
+}
+header
+{
+    background-color: rgba(235, 229, 217, 1);
+}
+.navbar
+{
+    padding: 10px 30px !important;
+}
+.navbar-nav
+{
+    margin-left: 20px;
+}
+.nav-link
+{
+    padding:10px 15px !important;
+    color: rgba(192, 157, 110, 1) !important;
+    border-right: 2px solid #fff !important;
+}
+.nav-item img 
+{
+    width: 25px;
+    height: 25px;
+}
+.banner-content
+{
+    width: 80%;
+    margin: 10px auto;
+}
+.text-1
+{
+    width: 80%;
+    margin: 0px auto;
+    text-align: justify;
+}
+.text-2 
+{
+    width: 80%;
+    margin: 0px auto;
+    text-align: justify;
+}
+.idea 
+{
+    background-color: rgba(237, 246, 250, 1);
+    padding: 50px;
+    line-height: 30px;
+}
+.idea-img 
+{
+    width: 80%;
+    height: auto;
+    margin: 30px;
+}
+.idea-img img 
+{
+    width: 100%;
+    height: 100%;
+}
+.star-img 
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/baby.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.star-content
+{
+    max-width: 487px;
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+}
+.star-content h1 
+{
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.vision 
+{
+    background-color: rgba(237, 246, 250, 1);
+    padding: 50px;
+}
+.vision-content 
+{
+    line-height: 30px;
+}
+.vision-img 
+{
+    width: 80%;
+    height: auto;
+    margin: 30px;
+}
