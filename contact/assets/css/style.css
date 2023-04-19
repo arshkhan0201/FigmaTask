@@ -13,7 +13,7 @@ img {
 }
 .text-h2-center {
   color: rgba(142, 164, 188, 1);
-  margin: 30px 0px;
+  margin: 20px 0px;
   text-align: center;
 }
 .text-h2 {
@@ -39,7 +39,18 @@ img {
   font-size: 12px;
   margin-top: -10px;
 }
-/* NAVIGATION */
+.btn1 {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgba(241, 136, 137, 1);
+  border: 2px dashed #fff;
+  border-radius: 50px;
+  outline: 3px solid rgba(241, 136, 137, 1);
+  padding: 7px 30px;
+}
+
+/* NAVIGATION CSS  */
 
 header {
   background-color: rgba(235, 229, 217, 1);
@@ -59,78 +70,54 @@ header {
   width: 25px;
   height: 25px;
 }
-/* NAVIGATION CSS ENDS HERE */
+/* NAVIGATION CSS END HERE */
 
-.banner-content {
-  width: 80%;
-  margin: 0px auto;
+.form {
+  text-align: right;
 }
-.text-1 {
-  width: 80%;
-  margin: 0px auto;
-  text-align: justify;
+.form input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px dashed rgba(183, 181, 181, 1);
+  border-radius: 5px;
 }
-.text-2 {
-  width: 80%;
-  margin: 0px auto;
-  text-align: justify;
+.form textarea {
+  width: 100%;
+  color: rgba(134, 134, 134, 1);
+  border: 1px dashed rgba(183, 181, 181, 1);
+  padding: 20px;
+  border-radius: 5px;
 }
-/* BANNER CSS ENDS HERE */
+/* FORM CSS ENDS HERE */
 
-.idea {
-  background-color: rgba(237, 246, 250, 1);
+.card {
+  width: 80%;
+  margin: 50px auto;
+}
+.retailer {
+  border: 1px dashed rgba(183, 181, 181, 1);
+  border-radius: 5px;
   padding: 50px;
-  line-height: 30px;
-}
-.idea-img {
-  width: 80%;
-  height: auto;
-  margin: 30px;
-}
-.idea-img img {
-  width: 100%;
-  height: 100%;
-}
-/* IDEA CSS ENDS HERE */
-
-.star-img {
-  width: 100%;
-  height: 500px;
-  background-image: url(../images/baby.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.star-content {
-  max-width: 487px;
-  width: 100%;
-  font-size: 50px;
-  position: relative;
-}
-.star-content h1 {
-  color: #fff;
-  position: absolute;
-  top: 100px;
-  left: 100px;
-}
-/* STAR CSS ENDS HERE */
-
-.vision {
   background-color: rgba(237, 246, 250, 1);
+  color: rgba(134, 134, 134, 1);
+}
+.brand {
+  margin-top: 30px;
   padding: 50px;
+  border: 1px dashed rgba(183, 181, 181, 1);
+  border-radius: 5px;
+  background-color: rgba(245, 248, 233, 1);
+  color: rgba(134, 134, 134, 1);
 }
-.vision-content {
-  line-height: 30px;
-}
-.vision-img {
-  width: 80%;
-  height: auto;
-  margin: 30px;
-}
-/* VISION CSS ENDS HERE */
+/* CARDS CSS ENDS HERE */
 
 .do-you {
-  padding: 70px;
+  padding: 50px;
   background-color: rgba(255, 245, 245, 1);
+}
+.do-you-content {
+  width: 85%;
+  margin: 0px auto;
 }
 .do-you h1 {
   color: rgba(237, 170, 205, 1);
@@ -150,13 +137,43 @@ header {
 }
 /* DO-YOU CSS ENDS HERE */
 
+.subscribe {
+  width: 80%;
+  margin: 0px auto;
+  background-color: #fff;
+}
+.subscribe input {
+  margin: 10px 20px;
+  border: 1px dashed rgba(183, 181, 181, 1);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+.subscribe-checkbox #checkbox {
+  width: 30px;
+  height: 30px;
+}
+.subscribe-checkbox {
+  display: flex;
+  align-items: flex-start;
+}
+.subscribe-checkbox p {
+  margin-top: 20px;
+}
+/* SUBSCRIBE CSS ENDS HERE */
+
 footer {
   color: rgba(134, 134, 134, 1);
   background-color: rgba(235, 229, 217, 1);
-  padding: 50px;
+  padding: 20px;
 }
 footer ul li {
   list-style-type: none;
+}
+.footer-section {
+  width: 80%;
+  margin: 0px auto;
 }
 .h4-left {
   text-align: left;
@@ -164,6 +181,7 @@ footer ul li {
 }
 .ul-left {
   text-align: left;
+  border-right: 2px solid white;
 }
 .h4-center {
   text-align: center;
@@ -181,15 +199,9 @@ footer ul li {
 }
 /* FOOTER CSS ENDS HERE */
 
-@media only screen and (max-width: 1200px) {
-  .idea-img {
-    margin-top: 100px;
-  }
-}
-
 @media only screen and (max-width: 991px) {
-  .idea-img {
-    margin-top: 0px;
+  .btn1 {
+    margin-bottom: 25px;
   }
   footer .h4-center {
     text-align: left;

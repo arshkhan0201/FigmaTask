@@ -1,361 +1,342 @@
-*
-{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Inter;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Inter;
 }
 @font-face {
-    font-family: Inter;
-    src: url(../fonts/Inter.ttf);
+  font-family: Inter;
+  src: url(../fonts/Inter.ttf);
 }
-img 
-{
-    width: 100%;
+img {
+  width: 100%;
 }
-.text-h2
-{
-    margin-left: 5px;
-    color: rgba(142, 164, 188, 1);
-    text-align: left;
+.text-h2 {
+  margin-left: 5px;
+  color: rgba(142, 164, 188, 1);
+  text-align: left;
 }
-.text-h4
-{
-    margin-top: 20px;
+.text-h4 {
+  margin-top: 20px;
 }
-.text-p
-{
-    margin-top: 20px;
-    font-size: 24px;
-    line-height: 24p;
-    color: rgba(134, 134, 134, 1);
-    text-align: left;
+.text-p {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 24p;
+  color: rgba(134, 134, 134, 1);
+  text-align: left;
 }
-.text-p1
-{
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 24p;
-    text-align: left;
-    color: rgba(134, 134, 134, 1);
+.text-p1 {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 24p;
+  text-align: left;
+  color: rgba(134, 134, 134, 1);
 }
-.btn1
-{
-    margin-top: 20px;
-    color: #fff;
-    background-color: rgba(241, 136, 137, 1);
-    border: 2px dashed #fff;    
-    border-radius: 50px;
-    outline: 3px solid rgba(241, 136, 137, 1);
-    padding: 7px 20px;
+.btn1 {
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(241, 136, 137, 1);
+  border: 2px dashed #fff;
+  border-radius: 50px;
+  outline: 3px solid rgba(241, 136, 137, 1);
+  padding: 7px 30px;
 }
+
 /* NAVIGATION STARTS HERE */
 
-header
-{
-    background-color: rgba(235, 229, 217, 1);
+header {
+  background-color: rgba(235, 229, 217, 1);
 }
-.navbar
-{
-    padding: 10px 30px !important;
+.navbar {
+  padding: 10px 30px !important;
 }
-.navbar-nav
-{
-    margin-left: 20px;
+.navbar-nav {
+  margin-left: 20px;
 }
-.nav-link
-{
-    padding:10px 15px !important;
-    color: rgba(192, 157, 110, 1) !important;
-    border-right: 2px solid #fff !important;
+.nav-link {
+  padding: 10px 15px !important;
+  color: rgba(192, 157, 110, 1) !important;
+  border-right: 2px solid #fff !important;
 }
-.nav-item img 
-{
-    width: 25px;
-    height: 25px;
+.nav-item img {
+  width: 25px;
+  height: 25px;
 }
 /* NAVIGATION CSS END HERE */
-.body-section
-{
-    background-image: url('../images/background.png');
+
+.body-section {
+  background-image: url("../images/background.png");
 }
-.banner-content
-{
-    background-color: #fff;
-    width:100%;
-    padding: 70px;
+.banner-content {
+  background-color: #fff;
+  width: 100%;
+  padding: 70px;
 }
 /* BANNER CSS ENDS HERE */
 
-.cards
-{
-    width: 100%;
-    background-color: rgba(237, 246, 250, 1);
-    padding: 50px 25px;
+.cards {
+  width: 100%;
+  background-color: rgba(237, 246, 250, 1);
+  padding: 50px 25px;
 }
-.inner-card1
-{
-    background-color: #fff;
-    padding: 5px;
+.inner-card1 {
+  background-color: #fff;
+  padding: 5px;
 }
-.box
-{
-    margin: 10px;
-    padding: 20px;
-    border:  1px dashed #80ABBE;
-    background-color: #fff;
+.box {
+  margin: 10px;
+  padding: 20px;
+  border: 1px dashed #80abbe;
+  background-color: #fff;
+  text-align: center;
+}
+.box img {
+  width: 50px;
+  height: 50px;
+}
+/* CARD CSS ENDS HERE */
+
+.signup {
+  background-color: #fff;
+  padding: 70px;
+  text-align: center;
+}
+.images {
+  background-color: #fff;
+}
+.images img {
+  border: 1px dashed rgba(152, 152, 152, 1);
+  margin: 10px 0px;
+}
+.images img:hover {
+  border: 1px solid black;
+}
+/* SIGNUP CSS ENDS HERE */
+
+.shipping {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.shipping-img {
+  margin-top: 50px;
+}
+.shipping-content {
+  margin: 40px;
+  padding: 10px;
+}
+.shipping-content img {
+  position: relative;
+  left: 30px;
+  width: 25px;
+  height: 25px;
+}
+/* SHIPPING CSS ENDS HERE */
+
+.do-you {
+  padding: 70px;
+  background-color: rgba(255, 245, 245, 1);
+}
+.do-you h1 {
+  color: rgba(237, 170, 205, 1);
+  font-size: 40px;
+  max-width: 626px;
+}
+.do-you p {
+  color: rgba(109, 172, 234, 1);
+  font-size: 24px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.do-you a:link {
+  text-decoration: none;
+}
+.do-you img {
+  margin-top: 40px;
+}
+/* DO-YOU CSS ENDS HERE */
+
+.subscribe {
+  background-color: #fff;
+  padding: 70px;
+}
+.subscribe input {
+  margin: 10px 20px;
+  border: 1px dashed rgba(183, 181, 181, 1);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+.subscribe-checkbox #checkbox {
+  width: 20px;
+  height: 20px;
+}
+.subscribe-checkbox {
+  display: flex;
+  align-items: flex-start;
+}
+.subscribe-checkbox p {
+  display: flex;
+  margin-top: 20px;
+}
+/* SUBSCRIBE CSS ENDS HERE */
+
+footer {
+  color: rgba(134, 134, 134, 1);
+  background-color: rgba(235, 229, 217, 1);
+  padding: 50px;
+}
+footer ul li {
+  list-style-type: none;
+}
+.h4-left {
+  text-align: left;
+  margin: 0px 0px 20px 30px;
+}
+.ul-left {
+  text-align: left;
+}
+.h4-center {
+  text-align: center;
+  margin: 0px 0px 20px 30px;
+}
+.ul-center {
+  text-align: center;
+}
+.h4-right {
+  text-align: right;
+  margin: 0px 0px 20px 30px;
+}
+.ul-right {
+  text-align: right;
+}
+/* FOOTER CSS ENDS HERE */
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav {
+    margin: 0px;
+  }
+  .subscribe-input {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+  }
+  footer .h4-center {
+    text-align: left;
+  }
+  footer .h4-right {
+    text-align: left;
+  }
+  footer ul li {
+    text-align: left;
+  }
 }
-.box img 
-{
-    width: 50px;
-    height: 50px;
-}
-/* CARD ENDS HERE */
-
-.signup
-{
-    background-color: #fff;
-    padding: 70px;
-    text-align: center;
-}
-.images 
-{
-    background-color: #fff;
-}
-.images img 
-{
-   padding-top: 20px;
-}
-/* SIGNUP ENDS HERE */
-
-.shipping
-{
-    width: 100%;
-    background-color: #fff;
-    padding:50px;
-    text-align: center;
-}
-.shipping-img 
-{
-    margin-top: 50px;
-}
-.shipping-content
-{
-    margin: 40px;
-    padding: 10px;
-}
-.shipping-content img 
-{
-    position: relative;
-    left: 30px;
-    width: 25px;
-    height: 25px;
-}
-/* SHIPPING ENDS HERE */
-
-.do-you 
-{
-    padding: 70px;
-    background-color: rgba(255, 245, 245, 1);
-}
-.do-you h1
-{
-    color: rgba(237, 170, 205, 1);
-    font-size: 40px;
-    max-width: 626px;
-}
-.do-you p 
-{
-    color: rgba(109, 172, 234, 1);
-    font-size: 24px;
-    margin-top: 30px;
-    text-decoration: none;
-}
-.do-you a:link
-{
-    text-decoration: none;
-}
-.do-you img 
-{
-    margin-top: 40px;
-}
-/* DO-YOU ENDS HERE */
-
-.subscribe 
-{
-    background-color: #fff;
-    padding: 70px;
-}
-.subscribe input 
-{
-    margin:10px 20px;
-    border: 1px dashed rgba(183, 181, 181, 1);
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 20px;
+@media only screen and (max-width: 768px) {
+  .banner-content p {
     font-size: 20px;
+    text-align: justify;
+  }
+  .cards p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .signup p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .shipping-content h1 {
+    font-size: 35px;
+    text-align: justify;
+  }
+  .shipping-content p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .subscribe p {
+    font-size: 20px;
+    text-align: justify;
+  }
 }
-.subscribe-checkbox #checkbox 
-{
-    width: 20px;
-    height: 20px;
+@media only screen and (max-width: 480px) {
+  .banner-content {
+    padding: 30px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .cards {
+    padding: 30px;
+  }
+  .cards p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .signup {
+    padding: 30px;
+  }
+  .signup p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .shipping {
+    padding: 30px;
+  }
+  .shipping-content h1 {
+    font-size: 20px;
+  }
+  .shipping-content p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .subscribe {
+    padding: 30px;
+  }
+  .subscribe p {
+    font-size: 16px;
+    text-align: justify;
+  }
 }
-.subscribe-checkbox
-{
-    display: flex;
-    align-items: flex-start;
-}
-.subscribe-checkbox p
-{
-    display: flex;
-    margin-top: 20px;
-}
-/* SUBSCRIBE ENDS HERE */
-
-footer
-{
-    color: rgba(134, 134, 134, 1);
-    background-color: rgba(235, 229, 217, 1);
-    padding: 70px;
-}
-footer h4 
-{
-    margin:0px 0px 20px 20px;
-    text-align: center;
-}
-footer ul li 
-{
-    text-align: center;
-    list-style: none;
-}
-/* FOOTER ENDS HERE */
-
-@media only screen and (max-width:991px) {
-    .navbar-nav {
-        margin: 0px;
-    }
-    .subscribe-input{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }  
-}
-@media only screen and (max-width:768px) {
-    .banner-content p {
-        font-size: 20px;
-        text-align: justify;
-    }
-    .cards p {
-        font-size: 20px;
-        text-align: justify;
-    }
-    .signup p {
-        font-size: 20px;
-        text-align: justify;
-    }
-    .shipping-content h1 
-    {
-        font-size: 35px;
-        text-align: justify;
-    }
-    .shipping-content p {
-        font-size: 20px;
-        text-align: justify;
-    }
-    .subscribe p {
-        font-size: 20px;
-        text-align: justify;
-    }
-}
-@media only screen and (max-width:480px){
-    .banner-content
-    {
-        padding: 30px;
-    }
-    .banner-content p{
-        font-size: 16px;
-        text-align: justify;
-    }
-    .cards{
-        padding: 30px;
-    }
-    .cards p{
-        font-size: 16px;
-        text-align: justify;
-    }
-    .signup
-    {
-        padding: 30px;
-    }
-    .signup p{
-        font-size: 16px;
-        text-align: justify;
-    }
-    .shipping
-    {
-        padding: 30px;
-    }
-    .shipping-content h1 
-    {
-        font-size: 20px;
-    }
-    .shipping-content p{
-        font-size: 16px;
-        text-align: justify;
-    }
-    .subscribe
-    {
-        padding: 30px;
-    }
-    .subscribe p {
-        font-size: 16px;
-        text-align: justify;
-    }
-}
-@media only screen and (max-width:320px){
-    .banner-content
-    {
-        padding: 10px;
-    }
-    .banner-content p{
-        font-size: 12px;
-        text-align: justify;
-    }
-    .cards
-    {
-        padding: 10px;
-    }
-    .cards p{
-        font-size: 12px;
-        text-align: justify;
-    }
-    .signup
-    {
-        padding: 10px;
-    }
-    .signup p{
-        font-size: 12px;
-        text-align: justify;
-    }
-    .shipping
-    {
-        padding: 10px;
-    }
-    .shipping-content h1
-    {
-        font-size: 25px;
-    }
-    .shipping-content p{
-        font-size: 12px;
-        text-align: justify;
-    }
-    .subscribe
-    {
-        padding: 10px;
-    }
-    .subscribe p{
-        font-size: 12px;
-        text-align: justify;
-    }
+@media only screen and (max-width: 320px) {
+  .banner-content {
+    padding: 10px;
+  }
+  .banner-content p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .cards {
+    padding: 10px;
+  }
+  .cards p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .signup {
+    padding: 10px;
+  }
+  .signup p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .shipping {
+    padding: 10px;
+  }
+  .shipping-content h1 {
+    font-size: 25px;
+  }
+  .shipping-content p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .subscribe {
+    padding: 10px;
+  }
+  .subscribe p {
+    font-size: 12px;
+    text-align: justify;
+  }
 }
