@@ -61,10 +61,6 @@ header {
 }
 /* NAVIGATION CSS ENDS HERE */
 
-.banner-content {
-  width: 80%;
-  margin: 0px auto;
-}
 .text-1 {
   width: 80%;
   margin: 0px auto;
@@ -79,7 +75,7 @@ header {
 
 .idea {
   background-color: rgba(237, 246, 250, 1);
-  padding: 50px;
+  padding: 30px;
   line-height: 30px;
 }
 .idea-img {
@@ -103,7 +99,7 @@ header {
 .star-content {
   max-width: 487px;
   width: 100%;
-  font-size: 50px;
+  font-size: 30px;
   position: relative;
 }
 .star-content h1 {
@@ -174,10 +170,11 @@ footer ul li {
 }
 .h4-right {
   text-align: right;
-  margin: 0px 0px 20px 30px;
+  margin: 0px 30px 20px 30px;
 }
 .ul-right {
   text-align: right;
+  margin-right: 30px;
 }
 /* FOOTER CSS ENDS HERE */
 

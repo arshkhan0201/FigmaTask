@@ -49,6 +49,16 @@ img {
   outline: 3px solid rgba(241, 136, 137, 1);
   padding: 7px 30px;
 }
+.btn2 {
+  margin:20px 0px 0px 27px;
+  color: #fff;
+  font-size: 20px;
+  background-color: rgba(241, 136, 137, 1);
+  border: 2px dashed #fff;
+  border-radius: 50px;
+  outline: 3px solid rgba(241, 136, 137, 1);
+  padding: 7px 30px;
+}
 
 /* NAVIGATION CSS  */
 
@@ -90,9 +100,9 @@ header {
 }
 /* FORM CSS ENDS HERE */
 
-.card {
+.cards {
   width: 80%;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 .retailer {
   border: 1px dashed rgba(183, 181, 181, 1);

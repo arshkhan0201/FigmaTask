@@ -123,13 +123,9 @@ header {
 .shipping-img {
   margin-top: 50px;
 }
-.shipping-content {
-  margin: 40px;
-  padding: 10px;
-}
 .shipping-content img {
   position: relative;
-  left: 30px;
+  left: 50px;
   width: 25px;
   height: 25px;
 }
@@ -219,6 +215,24 @@ footer ul li {
   .navbar-nav {
     margin: 0px;
   }
+  .banner-content {
+    padding: 20px;
+  }
+  .cards {
+    padding: 20px;
+  }
+  .signup {
+    padding: 20px;
+  }
+  .shipping {
+    padding: 20px;
+  }
+  .do-you {
+    padding: 20px;
+  }
+  .subscribe {
+    padding: 20px;
+  }
   .subscribe-input {
     display: flex;
     flex-direction: column;
@@ -261,29 +275,17 @@ footer ul li {
   }
 }
 @media only screen and (max-width: 480px) {
-  .banner-content {
-    padding: 30px;
-  }
   .banner-content p {
     font-size: 16px;
     text-align: justify;
-  }
-  .cards {
-    padding: 30px;
   }
   .cards p {
     font-size: 16px;
     text-align: justify;
   }
-  .signup {
-    padding: 30px;
-  }
   .signup p {
     font-size: 16px;
     text-align: justify;
-  }
-  .shipping {
-    padding: 30px;
   }
   .shipping-content h1 {
     font-size: 20px;
@@ -291,9 +293,6 @@ footer ul li {
   .shipping-content p {
     font-size: 16px;
     text-align: justify;
-  }
-  .subscribe {
-    padding: 30px;
   }
   .subscribe p {
     font-size: 16px;
